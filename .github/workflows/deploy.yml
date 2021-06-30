@@ -24,7 +24,7 @@ jobs:
     
     - uses: actions/setup-node@master
     - name: 📂 Sync files
-      uses: jochani/test_cd@2.0.0
+      uses: jochani/test_cd@master
       with:
         server: ${{ secrets.DIAL_SITE_SERVER}}
         username: ${{ secrets.DIAL_SITE_USER}}
