@@ -24,7 +24,7 @@ jobs:
     
     - uses: actions/setup-node@master
     - name: 📂 Sync files
-      uses: Dial4help/FTP-Deploy-Action@4.0.0
+      uses: jochani/test_cd@4.0.0
       with:
         server: ${{ secrets.DIAL_SITE_SERVER}}
         username: ${{ secrets.DIAL_SITE_USER}}
